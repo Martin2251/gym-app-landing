@@ -6,5 +6,8 @@
 <a href="/">
 <h1 class="font-semibold">big <span class="text-indigo-400">app</span></h1>
 </a>
+<button class="md:hidden grid place-items-center">
+    <i class="fa-solid fa-bars"></i>
+</button>
 </div>
 </header>
