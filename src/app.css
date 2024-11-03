@@ -54,3 +54,11 @@ button:focus,
 .specialBtn{
     border-color:#646cff;
 }
+.specialBtnDark{
+    background: #646cff;
+    color: white;
+}
+
+.specialBtn:hover{
+    border-color: darkblue;
+}
