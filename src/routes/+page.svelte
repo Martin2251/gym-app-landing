@@ -3,7 +3,5 @@
 
 </script>
 <main class="flex flex-col">
-<SectionWrapper>
-    
-</SectionWrapper>
+<Hero />
 </main>
