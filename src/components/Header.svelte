@@ -10,9 +10,9 @@
     <i class="fa-solid fa-bars"></i>
 </button>
 <nav class="hidden md:flex items-center gap-4 lg:gap-6">
-    <a> Product</a>
-    <a>Reviews</a>
-    <a>FAQ</a>
+    <a class="duration-200 hover:text-indigo-400 cursor-pointer"> Product</a>
+    <a class="duration-200 hover:text-indigo-400 cursor-pointer">Reviews</a>
+    <a class="duration-200 hover:text-indigo-400 cursor-pointer">FAQ</a>
     <button class="specialBtn">Start Free today </button>
 </nav>
 </div>
