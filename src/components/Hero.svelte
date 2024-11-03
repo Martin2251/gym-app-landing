@@ -28,6 +28,7 @@ import Header from "./Header.svelte";
                 </div>
             </div>
             {/each}
+            <p>500 +</p>
         </div>
     </div>
 </SectionWrapper>
