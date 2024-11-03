@@ -1,5 +1,6 @@
 <script>
-  import Header from "./Header.svelte";
+  import CtAs from "./CTAs.svelte";
+import Header from "./Header.svelte";
   import SectionWrapper from "./SectionWrapper.svelte";
 
 
@@ -12,5 +13,9 @@
             <span class="text-indigo-400">Gym</span>training <span class="text-slate-600 line-through">is Hard</span><br/>
             just got <span class="text-indigo-400">Easier</span>
         </h2>
+        <p class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full"> 
+            less thinking more doing we are the trainer in the pocket <span class="italic">personalised workouts, exercise explanations, analytics</span> and much much more 
+        </p>
+        <CtAs />
     </div>
 </SectionWrapper>
