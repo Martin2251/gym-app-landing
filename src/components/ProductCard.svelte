@@ -13,7 +13,7 @@
             {#each productFeature.featureList as listItem}
             <div class="flex gap-2 items-center px-1.5 text-xs sm:text-sm aspect-square rounded-full border-[1.5px] bg-white border-solid border-green-300">
                 <i class="fa-solid fa-bolt text-green-400"></i>
-
+                    {listItem}
             </div>
             {/each}
         </div>
