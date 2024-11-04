@@ -16,7 +16,10 @@
       
             {#each productFeatures as productFeature, index}
                 <ProductCard productFeature={productFeature} index={index}>
-
+                    {#if === 0}
+                    {:else if === 1}
+                    {:else}
+                    {/if}
                 </ProductCard>
             {/each}
         
