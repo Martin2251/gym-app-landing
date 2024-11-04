@@ -14,7 +14,10 @@
             <h3 class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center">Features for everyone</h3>
         </div>
       
-            {#each productFeatures as productFeatures}
+            {#each productFeatures as productFeature, index}
+                <ProductCard productFeature={productFeature} index={index}>
+
+                </ProductCard>
             {/each}
         
 
