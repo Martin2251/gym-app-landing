@@ -48,8 +48,10 @@
       
             {#each productFeatures as productFeature, index}
                 <ProductCard productFeature={productFeature} index={index}>
-                    {#if index=== 0}
+                    {#if index === 0}
+                    Experience a beginner excerice<span class="text-indigo-400 font-medium">master</span>class
                     {:else if index=== 1}
+                    Lay the foundations for the <span class="text-indigo-400 font-mediun">routine</span><br/> and consistency
                     {:else}
                     {/if}
                 </ProductCard>
