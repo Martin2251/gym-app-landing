@@ -1,7 +1,11 @@
 <script>
   import SectionWrapper from "./SectionWrapper.svelte";
 
-  let productFeatures = []
+  let productFeatures = [{
+    featureList:[],
+    description:"",
+    imgUrl:"",
+  }]
 
 </script>
 <SectionWrapper id="product">
@@ -16,8 +20,8 @@
       
             {#each productFeatures as productFeature, index}
                 <ProductCard productFeature={productFeature} index={index}>
-                    {#if === 0}
-                    {:else if === 1}
+                    {#if index=== 0}
+                    {:else if index=== 1}
                     {:else}
                     {/if}
                 </ProductCard>
