@@ -53,6 +53,7 @@
                     {:else if index=== 1}
                     Lay the foundations for the <span class="text-indigo-400 font-mediun">routine</span><br/> and consistency
                     {:else}
+                    Workouts specific to your <span class="text-indigo-400 font-mediun">environment</span><br/> and expertise
                     {/if}
                 </ProductCard>
             {/each}
